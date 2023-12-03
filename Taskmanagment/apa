@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="button-container">
+        <a href="emp.html" class="button">Employee Registation</a>
+        <a href="Task.html" class="button">Task Registation</a>
+        <a href="Activity.php" class="button">Activity Registation</a>
+        <a href="Assign.php" class="button">Assign the Employee</a>
+        <a href="Report.php" class="button">Report</a>
+    </div>
+</body>
+</html>

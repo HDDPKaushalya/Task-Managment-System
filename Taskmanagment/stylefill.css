@@ -1,0 +1,21 @@
+body{
+    background-image:url(Img.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-weight: bold;
+    
+}
+h1{
+   
+    margin-right: 90pt;
+    font-size: 50pt;
+
+}
+
+

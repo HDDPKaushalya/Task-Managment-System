@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylefill.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities</title>
+</head>
+<body>
+
+    <form action="Activity.php" method="post">
+        <label>Task id: </label>
+        <input type = "text" name = "Tid"><br><br>
+
+        <label>Activity: </label>
+        <input type = "text" name = "Act">
+        <input type = "submit" name = "add" value="Add"><br><br>
+
+        <form action="assgnTAsk.php" method="post">
+
+        <label>Task id: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Activity: </label><br><br>
+        <input type = "text" name = "Tid">
+        <input type = "email" name = "Act">
+
+        <input type = "submit" name = "Save DB" value="Save"><br><br>
+       
+    </form>
+
+</body>
+</html>
